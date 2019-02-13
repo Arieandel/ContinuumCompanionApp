@@ -12,6 +12,7 @@
 		C2FA9AA32214BDE3002EA9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FA9AA12214BDE3002EA9CD /* Main.storyboard */; };
 		C2FA9AA52214BDE4002EA9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FA9AA42214BDE4002EA9CD /* Assets.xcassets */; };
 		C2FA9AA82214BDE4002EA9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FA9AA62214BDE4002EA9CD /* LaunchScreen.storyboard */; };
+		C2FA9AB02214C077002EA9CD /* ComicBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FA9AAF2214C077002EA9CD /* ComicBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C2FA9AA42214BDE4002EA9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2FA9AA72214BDE4002EA9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2FA9AA92214BDE4002EA9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FA9AAF2214C077002EA9CD /* ComicBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C2FA9AA42214BDE4002EA9CD /* Assets.xcassets */,
 				C2FA9AA62214BDE4002EA9CD /* LaunchScreen.storyboard */,
 				C2FA9AA92214BDE4002EA9CD /* Info.plist */,
+				C2FA9AAF2214C077002EA9CD /* ComicBookViewController.swift */,
 			);
 			path = ContinuumCompanionApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				C2FA9AA02214BDE3002EA9CD /* ViewController.swift in Sources */,
 				C2FA9A9E2214BDE3002EA9CD /* AppDelegate.swift in Sources */,
+				C2FA9AB02214C077002EA9CD /* ComicBookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
