@@ -11,5 +11,5 @@ import Foundation
 
 class ComicBookViewController {
     
-    
+    var isAlive = false
 }
