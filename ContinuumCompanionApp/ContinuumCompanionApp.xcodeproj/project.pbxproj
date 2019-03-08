@@ -13,6 +13,19 @@
 		C2FA9AA52214BDE4002EA9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FA9AA42214BDE4002EA9CD /* Assets.xcassets */; };
 		C2FA9AA82214BDE4002EA9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FA9AA62214BDE4002EA9CD /* LaunchScreen.storyboard */; };
 		C2FA9AB02214C077002EA9CD /* ComicBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FA9AAF2214C077002EA9CD /* ComicBookViewController.swift */; };
+		C2FA9AD12214D679002EA9CD /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9AC92214D678002EA9CD /* GoogleAppMeasurement.framework */; };
+		C2FA9AD22214D679002EA9CD /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9ACA2214D678002EA9CD /* FirebaseCoreDiagnostics.framework */; };
+		C2FA9AD32214D679002EA9CD /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9ACB2214D678002EA9CD /* FIRAnalyticsConnector.framework */; };
+		C2FA9AD42214D679002EA9CD /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9ACC2214D679002EA9CD /* FirebaseAnalytics.framework */; };
+		C2FA9AD52214D679002EA9CD /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9ACD2214D679002EA9CD /* GoogleUtilities.framework */; };
+		C2FA9AD62214D679002EA9CD /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9ACE2214D679002EA9CD /* FirebaseCore.framework */; };
+		C2FA9AD72214D679002EA9CD /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9ACF2214D679002EA9CD /* FirebaseInstanceID.framework */; };
+		C2FA9AD82214D679002EA9CD /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9AD02214D679002EA9CD /* nanopb.framework */; };
+		C2FA9ADB2214D68C002EA9CD /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9AD92214D68C002EA9CD /* GTMSessionFetcher.framework */; };
+		C2FA9ADC2214D68C002EA9CD /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9ADA2214D68C002EA9CD /* FirebaseAuth.framework */; };
+		C2FA9AE32214D795002EA9CD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9AE22214D795002EA9CD /* StoreKit.framework */; };
+		C2FA9AE52214D7AB002EA9CD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA9AE42214D7AB002EA9CD /* libsqlite3.tbd */; };
+		C2FA9AE72214D8CD002EA9CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FA9AE62214D8CD002EA9CD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,21 @@
 		C2FA9AA72214BDE4002EA9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2FA9AA92214BDE4002EA9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FA9AAF2214C077002EA9CD /* ComicBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicBookViewController.swift; sourceTree = "<group>"; };
+		C2FA9AC92214D678002EA9CD /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		C2FA9ACA2214D678002EA9CD /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		C2FA9ACB2214D678002EA9CD /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		C2FA9ACC2214D679002EA9CD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C2FA9ACD2214D679002EA9CD /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		C2FA9ACE2214D679002EA9CD /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		C2FA9ACF2214D679002EA9CD /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		C2FA9AD02214D679002EA9CD /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		C2FA9AD92214D68C002EA9CD /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		C2FA9ADA2214D68C002EA9CD /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		C2FA9ADF2214D732002EA9CD /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = ../../../Downloads/Firebase/module.modulemap; sourceTree = "<group>"; };
+		C2FA9AE02214D73C002EA9CD /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = ../../../Downloads/Firebase/Firebase.h; sourceTree = "<group>"; };
+		C2FA9AE22214D795002EA9CD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C2FA9AE42214D7AB002EA9CD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C2FA9AE62214D8CD002EA9CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FA9AE52214D7AB002EA9CD /* libsqlite3.tbd in Frameworks */,
+				C2FA9AE32214D795002EA9CD /* StoreKit.framework in Frameworks */,
+				C2FA9AD42214D679002EA9CD /* FirebaseAnalytics.framework in Frameworks */,
+				C2FA9ADB2214D68C002EA9CD /* GTMSessionFetcher.framework in Frameworks */,
+				C2FA9AD12214D679002EA9CD /* GoogleAppMeasurement.framework in Frameworks */,
+				C2FA9AD82214D679002EA9CD /* nanopb.framework in Frameworks */,
+				C2FA9AD62214D679002EA9CD /* FirebaseCore.framework in Frameworks */,
+				C2FA9AD32214D679002EA9CD /* FIRAnalyticsConnector.framework in Frameworks */,
+				C2FA9AD72214D679002EA9CD /* FirebaseInstanceID.framework in Frameworks */,
+				C2FA9ADC2214D68C002EA9CD /* FirebaseAuth.framework in Frameworks */,
+				C2FA9AD52214D679002EA9CD /* GoogleUtilities.framework in Frameworks */,
+				C2FA9AD22214D679002EA9CD /* FirebaseCoreDiagnostics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +82,15 @@
 			children = (
 				C2FA9A9C2214BDE3002EA9CD /* ContinuumCompanionApp */,
 				C2FA9A9B2214BDE3002EA9CD /* Products */,
+				C2FA9ACB2214D678002EA9CD /* FIRAnalyticsConnector.framework */,
+				C2FA9ACC2214D679002EA9CD /* FirebaseAnalytics.framework */,
+				C2FA9ACE2214D679002EA9CD /* FirebaseCore.framework */,
+				C2FA9ACA2214D678002EA9CD /* FirebaseCoreDiagnostics.framework */,
+				C2FA9ACF2214D679002EA9CD /* FirebaseInstanceID.framework */,
+				C2FA9AC92214D678002EA9CD /* GoogleAppMeasurement.framework */,
+				C2FA9ACD2214D679002EA9CD /* GoogleUtilities.framework */,
+				C2FA9AD02214D679002EA9CD /* nanopb.framework */,
+				C2FA9AE12214D795002EA9CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +105,11 @@
 		C2FA9A9C2214BDE3002EA9CD /* ContinuumCompanionApp */ = {
 			isa = PBXGroup;
 			children = (
+				C2FA9AE62214D8CD002EA9CD /* GoogleService-Info.plist */,
+				C2FA9AE02214D73C002EA9CD /* Firebase.h */,
+				C2FA9ADF2214D732002EA9CD /* module.modulemap */,
+				C2FA9ADA2214D68C002EA9CD /* FirebaseAuth.framework */,
+				C2FA9AD92214D68C002EA9CD /* GTMSessionFetcher.framework */,
 				C2FA9A9D2214BDE3002EA9CD /* AppDelegate.swift */,
 				C2FA9A9F2214BDE3002EA9CD /* ViewController.swift */,
 				C2FA9AA12214BDE3002EA9CD /* Main.storyboard */,
@@ -65,6 +119,15 @@
 				C2FA9AAF2214C077002EA9CD /* ComicBookViewController.swift */,
 			);
 			path = ContinuumCompanionApp;
+			sourceTree = "<group>";
+		};
+		C2FA9AE12214D795002EA9CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2FA9AE42214D7AB002EA9CD /* libsqlite3.tbd */,
+				C2FA9AE22214D795002EA9CD /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2FA9AA82214BDE4002EA9CD /* LaunchScreen.storyboard in Resources */,
+				C2FA9AE72214D8CD002EA9CD /* GoogleService-Info.plist in Resources */,
 				C2FA9AA52214BDE4002EA9CD /* Assets.xcassets in Resources */,
 				C2FA9AA32214BDE3002EA9CD /* Main.storyboard in Resources */,
 			);
@@ -288,11 +352,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2WYKSYDC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ContinuumCompanionApp",
+				);
 				INFOPLIST_FILE = ContinuumCompanionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = aandcorp.ContinuumCompanionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -306,11 +376,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2WYKSYDC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ContinuumCompanionApp",
+				);
 				INFOPLIST_FILE = ContinuumCompanionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = aandcorp.ContinuumCompanionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
