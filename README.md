@@ -2,21 +2,22 @@
 An iOS Companion app for the Continuum Engine
 
 
-Jax-Kal Companion App
-Name: Khoi Vu, Ariel Andelt, Murat Avartani
+Continuum Engine Companion App
+Team: Khoi Vu, Ariel Andelt, Murat Avartani
 
 Description of the Capstone:
 
-The game “Project Jax” is a multiplayer side scrolling platformer which we are building on a C++ 3D rendering engine with a 2D point of view. There is a wide story behind this platformer. We are creating a companion app for Project Jax which will be a comic book app of the game. After creating the app, we are planning to release 1 page every week.
-Purpose:
-
-The purpose of the Jax-Kal Companion App is for users to enjoy reading our game’s story through drawings. The app will be released before the game’s release.
+The Continuum Engine Companion App:
 Areas of Interest:
 
 Analytics: We want to know which audience is using our app such as their age, region, and country, at the same time we also want to know which page they stay on the most, how many views for a chapter in overall, the rating for each chapter. The way we do this is to make our users become a member of the app. We will create our own registration page or the users can use their Facebook accounts to log in to our app.
 
 Ads Support: We will add the advertisements in our code, and design a specific area that is just for the advertisement and the platform of the advertisement is Google.
 
+Function: In it's current implementation the application is essentially a chat server with our Google Firebase server where unique users can create accounts, log in, and chat with any member on the server. Messages are stored with unique keys for to/from ID's so when users log back in they have a history of messages sent/received.
+
+
+[ORIGINAL CONCEPT -- INCOMPLETE]
 Example Screens:
 
 Check out “Design Idea.png” section.
